@@ -1,6 +1,6 @@
 var playlist = new Object({Outkast: 'hey ya'});
 
 function updatePlaylist(playlist, artistName, songTitle) {
-  playlist[Outkast] = MsJackson
+  playlist[artistName] = MsJackson
   return playlist
 }
